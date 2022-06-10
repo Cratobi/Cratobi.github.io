@@ -52,7 +52,7 @@
       <div id='bio' class='card-qoute'>
         <div class='qoute-img'
           style='background-image: url(https://cdn.99images.com/photos/wallpapers/3d-abstract/picasso%20android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-tdrey.jpg);'>
-          <span class='qoute-container'>
+          <div class='qoute-container'>
             <span class='qoute-symbol'>“</span>
             <blockquote class='qoute' cite="http://www.worldwildlife.org/who/index.html">
               <b>You must have chaos within you to give birth to a dancing star
@@ -60,7 +60,7 @@
                 <i style='float: right; padding-top: 0.5rem'>― Friedrich Nietzsche</i>
               </b>
             </blockquote>
-          </span>
+          </div>
         </div>
       </div>
       <section class='space'>
@@ -72,7 +72,7 @@
           Now: &emsp; &emsp;&emsp; Dhaka, Bangladesh <br />
           <br />
           <br />
-          <table border='1' class='table'>
+          <table class='table'>
             <thead>
               <tr>
                 <th>Degree</th>
@@ -159,7 +159,7 @@
                   <td>Python</td>
                 </tr>
                 <tr>
-                  <td rowspan='6'>Creative</td>
+                  <td rowspan='4'>Creative</td>
                   <td colspan='2'>Graphics Design</td>
                 </tr>
                 <tr>
@@ -180,7 +180,7 @@
       <div id='hobbies' class='card-qoute'>
         <div class='qoute-img'
           style='background-image: url(https://cdn.britannica.com/41/181941-050-DBEBA6D5/Old-Tower-canvas-oil-cardboard-Fields-Vincent-1884.jpg);'>
-          <span class='qoute-container'>
+          <div class='qoute-container'>
             <span class='qoute-symbol'>“</span>
             <blockquote class='qoute' cite="http://www.worldwildlife.org/who/index.html">
               <b>The only thing I know is that I know nothing
@@ -188,7 +188,7 @@
                 <i style='float: right; padding-top: 0.5rem'>― Socrates</i>
               </b>
             </blockquote>
-          </span>
+          </div>
         </div>
       </div>
       <section class='space'>
@@ -206,7 +206,7 @@
       <div id='favorites' class='card-qoute'>
         <div class='qoute-img'
           style='background-image: url(https://i.guim.co.uk/img/media/336568844cf274d38d6e35c82852cf2750876c75/133_0_933_560/master/933.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=0f26a60e8d6f62ba83ed098717bd7d47);'>
-          <span class='qoute-container'>
+          <div class='qoute-container'>
             <span class='qoute-symbol'>“</span>
             <blockquote class='qoute' cite="http://www.worldwildlife.org/who/index.html">
               <b>I can control my passions and emotions if I can understand their nature
@@ -214,7 +214,7 @@
                 <i style='float: right; padding-top: 0.5rem'>― Spinoza</i>
               </b>
             </blockquote>
-          </span>
+          </div>
         </div>
       </div>
       <section class='space'>
@@ -268,23 +268,22 @@
             <li><a target="_blank" href="https://www.instagram.com/riiiiiiiyadh">Instagram</a>
             <li><a target="_blank" href="https://github.com/Cratobi">Github</a>
             <li><a target="_blank" href="https://piazza.com/class/l3q59z417auaz">Piazza</a>
-            <li><a target="_blank" emailto="sm.riyadh.hussain.rabbi@g.bracu.ac.bd">Email</a>
+            <li><a target="_blank" href="mailto:sm.riyadh.hussain.rabbi@g.bracu.ac.bd">Email</a>
             </li>
           </ol>
         </div>
       </section>
     </div>
   </main>
+  <script>
+    const protocol = window.location.protocol
+    const hostname = window.location.hostname
+    const path = window.location.pathname
+    const lastModified = (document.lastModified);
+
+    document.querySelector("#status").textContent = `${protocol}//${hostname}/${path} \\ Last Modified: ${lastModified}`
+
+  </script>
 </body>
-
-<script>
-  const protocol = window.location.protocol
-  const hostname = window.location.hostname
-  const path = window.location.pathname
-  const lastModified = (document.lastModified);
-
-  document.querySelector("#status").textContent = `${protocol}//${hostname}/${path} \\ Last Modified: ${lastModified}`
-
-</script>
 
 </html>

@@ -244,12 +244,18 @@ main {
 /* TABLE */
 
 .table-container {
+  border: 1px solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10rem;
   align-items: center;
   padding-left: 2rem;
+}
+table,
+th,
+td {
+  border: 1px solid;
 }
 .table {
   width: 80% !important;
