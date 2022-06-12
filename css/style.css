@@ -6,6 +6,7 @@ body {
   width: 100vw;
   overflow-x: hidden;
   font-family: 'Rajdhani', sans-serif;
+  scroll-behavior: smooth;
 }
 header .logo-container {
   width: 100vw;
